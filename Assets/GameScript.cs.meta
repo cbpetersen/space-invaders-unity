@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: f7cb70cf13f84a64f99ae5697f1ad4ab
+timeCreated: 1467746748
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Enemyprefab: {fileID: 100000, guid: 0bf7b44c5c72f4e40a82aca9c58f098b, type: 2}
+  - Remaininglivesprefab: {fileID: 100000, guid: b377c6aa76da154448c1372674a5b7e9,
+      type: 2}
+  - Player: {fileID: 100000, guid: cd0290b44e63fd4498041c97d94d4312, type: 2}
+  - EnemyLaser: {fileID: 100000, guid: 43c5c445b65e26b48824412c0cc3a3d2, type: 2}
+  - EnemySpaceship: {fileID: 100000, guid: 9cc5afab20a65b349b0d9268c9c8b027, type: 2}
+  - Block: {fileID: 100000, guid: e9f37f05aace39b4baaa0b25c4e7f5e6, type: 2}
+  - Level: {fileID: 100000, guid: 7eb1146061e23954282133031a968039, type: 2}
+  - Rank: {fileID: 100000, guid: 80aef32c97805e645b670eaba03ef1ea, type: 2}
+  - Gameover: {fileID: 100000, guid: 46db2f4ed240b114bb1842afb8e0dfd7, type: 2}
+  - GuiskinLabelCenterAlign: {instanceID: 0}
+  - GuiskinLabelLeftAlign: {instanceID: 0}
+  - GuiskinLabelRightAlign: {instanceID: 0}
+  - Scoreboard: {instanceID: 0}
+  - Sc: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
