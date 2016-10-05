@@ -101,9 +101,9 @@ public class GameScript : MonoBehaviour
         NewLevel();
         gameoverScript.Display(false);
         lives = new GameObject[3];
-        //        lives[0] = (GameObject)Instantiate(this.Remaininglivesprefab, new Vector3(12, 9, -3), Quaternion.AngleAxis(90, Vector3.up));
-        //        lives[1] = (GameObject)Instantiate(this.Remaininglivesprefab, new Vector3(12, 7.5f, -3), Quaternion.AngleAxis(90, Vector3.up));
-        //        lives[2] = (GameObject)Instantiate(this.Remaininglivesprefab, new Vector3(12, 6, -3), Quaternion.AngleAxis(90, Vector3.up));
+        lives[0] = (GameObject)Instantiate(this.Remaininglivesprefab, new Vector3(12, 9, -3), Quaternion.AngleAxis(90, Vector3.up));
+        lives[1] = (GameObject)Instantiate(this.Remaininglivesprefab, new Vector3(12, 7.5f, -3), Quaternion.AngleAxis(90, Vector3.up));
+        lives[2] = (GameObject)Instantiate(this.Remaininglivesprefab, new Vector3(12, 6, -3), Quaternion.AngleAxis(90, Vector3.up));
         Instantiate(this.Player, new Vector3(0, -9, 0), Quaternion.AngleAxis(180, Vector3.up));
 
         this.GenerateBlocks(-10f, -7.5f);
